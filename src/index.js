@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import "./index.css"
-import 'bootstrap/dist/css/bootstrap.css';
-import 'remixicon/fonts/remixicon.css'
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-
-
